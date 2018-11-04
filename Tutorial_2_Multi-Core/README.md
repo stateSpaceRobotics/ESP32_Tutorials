@@ -7,7 +7,7 @@ No special hardware is needed for this tutorial. All we need is our trusty ESP32
 
 ## Software
 ### Project Setup
-Now, we can setup a new project for the tutorial. Follow the steps you learned from Tutorial 1 to create a project named `Tutorial_2_Multi-Core`. Make sure to open `main.cpp` in Atom if you haven't already!
+Now, we can setup a new project for the tutorial. Follow the steps you learned from Tutorial 1 to create a project named `Tutorial_2_Multi-Core`. Make sure to open `main.cpp` in VSCode if you haven't already!
 
 ### FreeRTOS and CoreID's
 For the ESP32, the Arduino framework is based off of a lower-level software framework call FreeRTOS (Free Real-Time Operating System). As a result, when we include the Arduino libraries, we also get access to FreeRTOS. As part of FreeRTOS, we have access to a variety of functions and objects designed to make multi-core programming easy. The first, and most basic, function we will use is `xPortGetCoreID()`. This function returns a number (0 or 1 for the ESP32) corresponding to the core that is running the call to `xPortGetCoreID`.
