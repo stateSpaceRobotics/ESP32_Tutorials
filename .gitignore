@@ -29,3 +29,5 @@
 
 # Jupyter notebook checkpoints
 *-checkpoint.*
+
+*\.vscode/
